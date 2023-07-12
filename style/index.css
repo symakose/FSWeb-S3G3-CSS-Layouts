@@ -45,20 +45,27 @@ h2 {
 }
 .projes1 {
   display: flex;
-  padding: 2rem 4 rem;
-  justify-content: space-evenly;
+  padding: 2rem 4rem;
+  justify-content: space-around;
+  align-items: center;
 }
-.projes1 .img3 {
-  background: url(https://picsum.photos/seed/picsum/536/354);
-  justify-content: center;
+.images {
+  /* max-width: 25%;
+  min-height: 300px; */
+  min-width: 200px;
+  min-height: 280px;
+  max-width: 30%;
+  max-height: 280px;
 }
-.projes1 .img4 {
-  background: url(https://picsum.photos/id/237/536/354);
-  justify-content: center;
+
+.seymabaslik {
+  text-align: center;
 }
-.projes1 .img5 {
-  background: url(https://picsum.photos/536/354);
-  justify-content: center;
+.projes2 {
+  display: flex;
+  padding: 2rem 4rem;
+  justify-content: space-around;
+  align-items: center;
 }
 .paragraf {
   text-align: center;
