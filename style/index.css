@@ -1,4 +1,9 @@
 /* CSS stillerinizi buraya girin */
+
+* {
+  border: solid 1px black;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -46,6 +51,15 @@ h2 {
 }
 .ortalama {
   text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: translate(-50%, -50%);
+  background-color: aquamarine;
+  color: rgb(237, 123, 237);
+}
+.ortalama .linkpr {
+  list-style-type: none;
 }
 .projes1 {
   display: flex;
